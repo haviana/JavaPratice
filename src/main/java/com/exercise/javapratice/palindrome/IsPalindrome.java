@@ -13,8 +13,7 @@ public class IsPalindrome {
         char[] polindrome = aux.toCharArray();
         for (int i = polindrome.length - 1, j = 0; j < polindrome.length; i--, j++) {
             if (!(polindrome[i] == polindrome[j]))
-                    return false;
-
+                return false;
         }
         return true;
     }
